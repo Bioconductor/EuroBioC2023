@@ -1,0 +1,88 @@
+<div class="heading text-center">
+    <h2> Platinum </h2>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    {{ $level := "platinum" }}
+    {{ range $sponsors := $.Site.Data.clients }}
+    {{ if (eq $sponsors.level $level) }}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a>
+        </div>
+      </div>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>
+
+<div class="heading text-center">
+    <h2> Gold  </h2>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    {{ $level := "gold" }}
+    {{ range $sponsors := $.Site.Data.clients }}
+    {{ if (eq $sponsors.level $level) }}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          {{ if eq $sponsors.name2 "" }}
+          <a href="{{.url}}" target="_blank"> {{.name}} </a>
+          {{ else }}
+          <a href="{{.url}}" target="_blank"> {{.name}} </a> & <a href = "{{.url2}}" target="_blank"> {{.name2}} </a> 
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>
+
+
+<div class="heading text-center">
+    <h2> Silver  </h2>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    {{ $level := "silver" }}
+    {{ range $sponsors := $.Site.Data.clients }}
+    {{ if (eq $sponsors.level $level) }}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a> 
+        </div>
+      </div>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>
+
+<div class="heading text-center">
+    <h2> Others  </h2>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    {{ $level := "other" }}
+    {{ range $sponsors := $.Site.Data.clients }}
+    {{ if (eq $sponsors.level $level) }}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a>
+        </div>
+      </div>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>

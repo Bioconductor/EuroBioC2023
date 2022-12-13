@@ -1,0 +1,153 @@
+---
+output: github_document
+---
+
+## Workshops
+
+```{r, eval=FALSE,echo=FALSE}
+# run this to create the workshops.md file
+rmarkdown::render("workshops-status.Rmd",
+    rmarkdown::md_document(
+        variant="gfm", preserve_yaml = FALSE
+    )
+)
+writeLines(c(
+"---
+layout: default
+---
+
+{% include header.md %}
+",
+    readLines("workshops-status.md")
+    ),
+    con = file("workshops-status.md")
+)
+```
+
+```{r, include=FALSE}
+setClass("Workshop", representation(
+    title = "character",  # Workshop title
+    github = "character", # GitHub repository 'owner/repo'
+    docker = "character", # Docker repository 'owner/repo'
+    badge = "character"   # path to the GitHub workflow badge
+))
+Workshop <- function(...) {
+    new("Workshop", ...)
+}
+setGeneric(
+    "renderTibbleRow",
+    function(x) standardGeneric("renderTibbleRow")
+)
+setMethod("renderTibbleRow", "Workshop", function(x) {
+    github_user_repo <- strsplit(x@github, "/")[[1]]
+    github_user <- github_user_repo[1]
+    github_repo <- github_user_repo[2]
+    workshop_link <- sprintf("[%s](https://%s.github.io/%s)&nbsp;&nbsp;", x@title, github_user, github_repo)
+    source_link <- sprintf("[![GitHub Mark](/img/GitHub-Mark-32px.png)](https://github.com/%s)", x@github)
+    docker_image <- htmltools::HTML(sprintf("<img src='/img/docker-vertical-logo-monochromatic.png' alt='Girl in a jacket' width='32' height='32'>"))
+    docker_image_url <- sprintf("https://hub.docker.com/r/%s", x@docker)
+    docker_link <- sprintf("[%s](%s)", docker_image, docker_image_url)
+    status_badge <- sprintf("[![GitHub Action badge](https://github.com/%s/workflows/%s)](https://github.com/%s/actions)", x@github, x@badge, x@github)
+    tibble::tibble(
+        Workshop = workshop_link,
+        Source = source_link,
+        Docker = docker_link,
+        Status = status_badge
+    )
+})
+```
+
+```{r, include=FALSE}
+Paper9 <- Workshop(
+    title = "Interfacing Bioconductor with tidyverse with tidySingleCellExperiment and tidySummarisedExperiment",
+    github = "stemangiola/bioc2021_tidytranscriptomics",
+    docker = "stemangiola/bioc2021_tidytranscriptomics",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper27 <- Workshop(
+    title = "Dimension Reduction for Beginners",
+    github = "aedin/PCAworkshop",
+    docker = "aculhane/pcabiocworkshop2020",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper40 <- Workshop(
+    title = "Multi-omic Integration of cBioPortal and TCGA data with MultiAssayExperiment",
+    github = "waldronlab/MultiAssayWorkshop",
+    docker = "mr148/multiassayworkshop",
+    badge = "MAEWorkshopCheck/badge.svg"
+)
+Paper50 <- Workshop(
+    title = "Effectively using the DelayedArray framework to support the analysis of large datasets",
+    github = "PeteHaitch/BioC2021_DelayedArray_workshop",
+    docker = "petehaitch/bioc2021_delayedarray_workshop",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper68 <- Workshop(
+    title = "Introduction to Bioconductor annotation resources",
+    github = "jmacdon/Bioc2021Anno",
+    docker = "jmacdon/bioc2021anno",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper78 <- Workshop(
+    title = "Reproducing a single-cell proteomics data analysis using QFeatures and scp",
+    github = "lgatto/QFeaturesScpWorkshop2021",
+    docker = "lgatto/qfeaturesscpworkshop2021",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper80 <- Workshop(
+    title = "Trajectory inference across conditions: differential expression and differential progression",
+    github = "HectorRDB/bioc2021trajectories",
+    docker = "HectorRDB/bioc2021trajectories",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper81 <- Workshop(
+    title = "systemPipe: Workflow and Visualization Toolkit",
+    github = "systemPipeR/systemPipeWorkshop2021",
+    docker = "systempipe/systempipeworkshop2021",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper112 <- Workshop(
+    title = "Building Carpentries-based Bioconductor Lessons",
+    github = "jdrnevich/BuildACarpentriesWorkshop",
+    docker = "jdrnevich/buildacarpentriesworkshop",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper121 <- Workshop(
+    title = "Epidemiology for Bioinformaticians",
+    github = "cmirzayi/epiforbioworkshop2021",
+    docker = "cmirzayi/epiforbioworkshop2021",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+Paper124 <- Workshop(
+    title = "Introduction to the Terra/AnVIL Cloud-based Genomics Platform",
+    github = "waldronlab/AnVILWorkshop",
+    docker = "shbrief/anvilworkshop",
+    badge = ".github/workflows/basic_checks.yaml/badge.svg"
+)
+```
+
+```{r, echo=FALSE}
+workshop_table <- dplyr::bind_rows(
+    renderTibbleRow(Paper9),
+    renderTibbleRow(Paper27),
+    renderTibbleRow(Paper40),
+    renderTibbleRow(Paper50),
+    renderTibbleRow(Paper68),
+    renderTibbleRow(Paper78),
+    renderTibbleRow(Paper80),
+    renderTibbleRow(Paper81),
+    renderTibbleRow(Paper112),
+    renderTibbleRow(Paper121),
+    renderTibbleRow(Paper124)
+)
+knitr::kable(workshop_table,
+    format = "markdown",
+    col.names = c("Workshop", "Source&nbsp;&nbsp;", "Docker&nbsp;&nbsp;", "Status"),
+    align=c("l", "c", "c", "l")
+)
+```
+
+<br/>
+
+Find out more details on the [Workshops](/workshops) page!
+

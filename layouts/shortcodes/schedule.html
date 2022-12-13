@@ -1,0 +1,236 @@
+{{ if .IsNamedParams }}
+{{ $date := $.Params.date }}
+{{ $day := $.Params.day }}
+
+<h3> {{ .Params.date }} </h3>
+
+<div class="container">
+<table id='schedule-table' class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Time (PDT)</th>
+            <th>Session</th>
+            <th>Presenting author(s)</th>
+            <th>Title/Event</th>
+            <th>YouTube</th>
+        <tr>
+    </thead>
+    <tbody>
+        {{ $data := $.Site.Data.abstracts }}
+        {{ range sort $data "time" "asc" }}
+        {{ if eq .day $day }}
+
+        {{ if not (eq .session_type "Short talk") }}
+        
+        {{ if eq .session_type "Keynote" }}
+
+        <tr class="danger">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            {{ if eq .details "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="{{ .details }}" target="_blank" title="Slides for '{{ .title }}'">{{ .title }}</a> </td>
+            {{ end }}
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube fa-xl" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
+        {{ else if eq .session_type "Short talks track" }}
+
+        <tr class="success">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            <td width="18%">
+                {{ if eq .twitter "" }}
+                {{ .presenting_author }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter2 "" }}
+                {{ .presenting_author2 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter2 }}" target="_blank">{{ .presenting_author2 }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter3 "" }}
+                {{ .presenting_author3 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter3 }}" target="_blank">{{ .presenting_author3 }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter4 "" }}
+                {{ .presenting_author4 }}<br>
+                {{ else }}
+                <a href="https://twitter.com/{{ .twitter4 }}" target="_blank">{{ .presenting_author4 }}</a><br>
+                {{ end }}
+            </td>
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            <td width="5%">
+            {{ if eq .youtube "" }}
+            {{ .youtube }}<br>
+            {{ else }}
+            <a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+            
+            {{ if eq .youtube2 "" }}
+            {{ .youtube2 }}<br>
+            {{ else }}
+            <a href="{{ .youtube2 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
+            {{ if eq .youtube3 "" }}
+            {{ .youtube3 }}<br>
+            {{ else }}
+            <a href="{{ .youtube3 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
+            {{ if eq .youtube4 "" }}
+            {{ .youtube4 }}<br>
+            {{ else }}
+            <a href="{{ .youtube4 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+            </td>
+
+        </tr>
+
+        {{ else if eq .session_type "Package demo" }}
+
+        <tr class="info">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
+        {{ else if eq .session_type "Workshop" }}
+
+        <tr class="warning">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
+        {{ else if eq .session_type "Posters" }}
+
+        <tr class="active">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
+        {{ else }}
+
+        <tr>
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else if eq .paper "bioc" }}
+            <td width="60%"><a href="{{ .title_link }}" target="_blank" title={{ .title_link }} >{{ .title }}</a> </td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+        
+        {{ end }}
+
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </tbody>
+<table>
+</div>
+
+{{- end -}}
+
+Workshop/demo levels: * - beginner, recommended for starting with Bioconductor; ** - intermediate; *** - advanced.

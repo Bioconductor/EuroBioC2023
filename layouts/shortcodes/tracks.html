@@ -1,0 +1,27 @@
+{{ if .IsNamedParams }}
+{{ $trackn := $.Params.track }}
+
+{{ range $abstracts := index $.Site.Data.abstracts }}
+{{ if (eq $abstracts.paper $trackn) }}
+    
+<h1> {{ .title }} </h1> <br>
+
+{{ range $talk := .talks }}
+
+{{ range $new := $.Site.Data.abstracts }}
+
+{{ if (eq $new.paper $talk) }}
+
+
+<h2> <a href="../{{ $talk }}" title={{ .abstract }} target="_blank"> {{ .title }} </a> </h2> <br><br>
+
+{{ end }}
+
+{{ end }}
+
+{{ end }}
+
+
+{{ end }}
+{{ end }}
+{{- end -}}

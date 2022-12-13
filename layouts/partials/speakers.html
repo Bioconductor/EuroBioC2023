@@ -1,0 +1,47 @@
+{{ if isset .Site.Params "speakers" }}
+{{ if .Site.Params.speakers.enable }}
+{{ if gt (len .Site.Data.speakers) 0 }}
+<style>
+    .bg-white {
+        background:#ffffff !important;
+    }
+    .row.extra-bottom-padding{
+        margin-bottom: 20px;
+    }
+</style>
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.speakers.title }}</h2>
+                </div>
+
+                <p class="lead">
+                    {{ .Site.Params.speakers.subtitle | markdownify }}
+                </p>
+
+                <!-- *** speakers CAROUSEL *** -->
+                <div class="container">
+                    {{ range .Site.Data.speakers }}
+                    <div class="row bg-white extra-bottom-padding">
+                        <div>
+                            <img class="img-responsive" alt="" src="{{ .avatar | absURL }}" style="height:200px; margin: 15px; float: left">
+
+                            <div>
+                                <h4>{{ .name  }}</h4>
+                                <h4>{{ .position  }}</h4>
+                                <p style="margin: 15px" >{{ .text | markdownify }}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,93 @@
+{{ if .IsNamedParams }}
+{{ $papern := $.Params.paper }}
+
+{{ range $abstracts := index $.Site.Data.abstracts }}
+{{ if (eq $abstracts.paper $papern) }}
+    
+<h1> {{ .title }} </h1> <br>
+
+Author(s): {{ .authors }} <br>
+<br>
+
+{{ if not (eq .affiliation "") }}
+
+Affiliation(s): {{ .affiliation }} <br>
+<br>
+{{ end }}
+
+{{ if eq .twitter "" }}
+<br>
+{{ else }}
+Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twitter }} </a>
+<br>
+{{ end }} 
+
+<br>
+
+{{ .abstract }}
+
+{{ if eq .session_type "Short talk" }}
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Short talk details</a>
+{{ end }}
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
+{{ end }}
+
+{{ if eq .session_type "Workshop" }}
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Workshop details</a>
+{{ end }}
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
+{{ end }}
+
+
+{{ if eq .session_type "Package demo" }}
+{{ if not (eq .details "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .details }}" target="_blank" title={{ .details }}>Package demo details</a>
+{{ end }}
+{{ if not (eq .github "") }}
+<br>
+<br>
+<a style="font-weight:bold;font-size:24px" href="{{ .github }}" target="_blank" title={{ .github }}>Source code</a>
+{{ end }}
+{{ end }}
+
+{{ if eq .orchestra "yes" }}
+<br>
+<h3> Orchestra </h3>
+1. Go to <a href="http://app.orchestra.cancerdatasci.org" target= "_blank" />Orchestra</a>.<br>
+2. Log in.<br>
+3. Search for the workshop of interest.<br>
+4. Click "Launch" (may take a minute or two).<br>
+5. Follow instructions.<br>
+{{ end }}
+
+<br>
+
+{{ if eq .youtube "" }}
+<br>
+{{ else }}
+<h3> On YouTube: </h3>
+<a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube fa-3x" ></i></a>
+<br>
+{{ end }} 
+
+
+{{ end }}
+{{ end }}
+
+{{- end -}}

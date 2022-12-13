@@ -1,0 +1,91 @@
+{{ if .IsNamedParams }}
+{{ $level := $.Params.level }}
+
+<h3> {{ .Params.level }} </h3>
+
+{{ if eq $level "Beginner" }}
+
+Recommended for starting with Bioconductor.
+
+{{ end }}
+
+
+<div class="container">
+    <table id="workshop-table" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Session type</th>
+                <th>Title</th>
+                <th>Details</th>
+                <th>Source</th>
+                <th>Youtube</th>
+            <tr>
+        </thead>
+        <tbody>
+            {{ $data := $.Site.Data.abstracts }}
+            {{ range $data }}
+            {{ if eq .session_type "Workshop" }}
+            {{ if eq .level $level }}
+
+            <tr>
+                <td width="5%"> {{ .session_type }} </td> 
+
+                <td width="80%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+
+                {{ if eq .details "" }}
+                <td width="5%">{{ .details }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .details }}" target="_blank"><i class="fas fa-external-link-alt" ></i></a></td>
+                {{ end }}
+
+                {{ if eq .github "" }}
+                <td width="5%">{{ .github }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .github }}" target="_blank"><i class="fab fa-github" ></i></a></td>
+                {{ end }}
+
+                {{ if eq .youtube "" }}
+                <td width="5%">{{ .youtube }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+                {{ end }}
+            </tr>
+            {{ end }}
+            {{ end }}
+
+            {{ if eq .session_type "Package demo" }}
+            {{ if eq .level $level }}
+
+            <tr>
+                <td width="5%"> {{ .session_type }} </td> 
+
+                <td width="80%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+
+                {{ if eq .details "" }}
+                <td width="5%">{{ .details }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .details }}" target="_blank"><i class="fas fa-external-link-alt" ></i></a></td>
+                {{ end }}
+
+                {{ if eq .github "" }}
+                <td width="5%">{{ .github }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .github }}" target="_blank"><i class="fab fa-github" ></i></a></td>
+                {{ end }}
+
+                {{ if eq .youtube "" }}
+                <td width="5%">{{ .youtube }}</td>
+                {{ else }}
+                <td style="text-align:center" width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+                {{ end }}
+            </tr>
+            {{ end }}
+            {{ end }}
+
+
+            {{ end }}
+        </tbody>
+    </table>
+</div>
+
+{{- end -}}

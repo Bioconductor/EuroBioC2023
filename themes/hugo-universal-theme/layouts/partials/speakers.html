@@ -1,0 +1,71 @@
+{{ if isset .Site.Params "speakers" }}
+{{ if .Site.Params.speakers.enable }}
+{{ if gt (len .Site.Data.speakers) 0 }}
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.speakers.title }}</h2>
+                </div>
+
+                <p class="lead">
+                  {{ .Site.Params.speakers.subtitle | markdownify }}
+                </p>
+
+                <!-- *** speakers CAROUSEL *** -->
+
+                <ul class="owl-carousel testimonials same-height-row">
+                    {{ range .Site.Data.speakers }}
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="bottom">
+                                <div class="icon"><i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    <h5>{{ .name }}</h5>
+                                    <p>{{ .position }}</p>
+                                </div>
+                                <div class="text">
+                                    <p>{{ .text | markdownify }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+                <!-- *** speakers CAROUSEL *** -->
+
+                <ul class="owl-carousel testimonials same-height-row">
+                    {{ range .Site.Data.speakers2 }}
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="bottom">
+                                <div class="icon"><i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    <h5>{{ .name }}</h5>
+                                    <p>{{ .position }}</p>
+                                </div>
+                                <div class="text">
+                                    <p>{{ .text | markdownify }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+                <!-- *** speakers CAROUSEL END *** -->
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
+{{ end }}
