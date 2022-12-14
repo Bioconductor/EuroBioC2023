@@ -3,13 +3,22 @@ title = "Organizers"
 description = "Organizers"
 +++
 
+<!--
 ## Co-chairs
 
 {{< cochairs >}}
+-->
 
-## Organizer Comittee
+## Organizing Committee
 
-{{< committee >}}
+|       |   |     |   |      |   |      |   |      |
+|:-----:|---|:---:|---|:----:|---|:----:|---|:----:|
+| ![](../img/organizers/CharlotteSoneson.jpg) | &nbsp; | ![](../img/organizers/DavideRisso.JPG)       | &nbsp; | ![](../img/organizers/FedericoMarini.png)  | &nbsp; | ![](../img/organizers/JohannesRainer.jpg) | &nbsp; | ![](../img/organizers/LaurentGatto.png)   |  
+| Charlotte Soneson                                 | &nbsp; | Davide Risso                                 | &nbsp; | Federico Marini                                 | &nbsp; | Johannes Rainer                          | &nbsp; | Laurent Gatto                             | 
+| ![](../img/organizers/LeoLahti.jpg)  | &nbsp; | ![](../img/organizers/LievenClement.jpg) | &nbsp; | ![](../img/organizers/mark.jpg) | &nbsp; | ![](../img/organizers/MStadler_FMI0142.jpg)   | &nbsp; | ![](../img/organizers/RobertCastelo.jpg)      | 
+| Leo Lahti                             | &nbsp; | Lieven Clement                           | &nbsp; | Mark Robinson                          | &nbsp; | Michael Stadler                             | &nbsp; | Robert Castelo                                | 
+| ![](../img/organizers/ivanekr.jpg)   | &nbsp; | ![](../img/organizers/SimoneBell.jpg)              | &nbsp; | ![](../img/organizers/ThomasNaake.jpg) | &nbsp; | ![](../img/organizers/Wolfgang_Huber.jpg)       | 
+| Robert Ivanek                              | &nbsp; | Simone Bell                                | &nbsp; | Thomas Naake                             | &nbsp; | Wolfgang Huber                                | 
 
 
 <!--
