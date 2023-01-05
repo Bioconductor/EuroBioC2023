@@ -33,7 +33,7 @@ paginate = 50
     identifier="Workshops"
     name = "Workshops & demos"
     url  = "/workshops/"
-    weight = 21
+    weight = 22
 
 #[[menu.main]]
 #    identifier="Package demos"
@@ -54,11 +54,11 @@ paginate = 50
     weight = 60
 
 [[menu.main]]
-    identifier="submissions"
-    parent = "about"
+    identifier = "submissions"
+#    parent = "about"
     name = "Submissions"
     url  = "/submissions/"
-    weight = 30
+    weight = 15
 
 # [[menu.main]]
 #    identifier="registration"
