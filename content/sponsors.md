@@ -149,14 +149,14 @@ description = "Sponsors"
 &nbsp;
 
 ## Sponsor Opportunities
-Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor was downloaded by [890,462 downloads (distinct IPs)](http://www.bioconductor.org/packages/stats/bioc/index.html) in 2021. Software packages are contributed by more than 1,200 community developers worldwide, totaling over half-million downloads per year.  
+Bioconductor is a non-profit organization that supports one of the most widely used data analysis tools in genomics. Bioconductor had [1,069,044 downloads (distinct IPs)](http://www.bioconductor.org/packages/stats/bioc/index.html) in 2022. Software packages are contributed by more than 1,200 community developers worldwide, totaling over half a million downloads per year.  
 
-The conference is unique in that in addition to talks and poster session, the meeting features 20+ workshops which provide hands-on learning in Bioconductor.  All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
+The conference is unique in that in addition to talks and poster session, the meeting features workshops which provide hands-on learning in Bioconductor.  All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
 
 
 > Interested in sponsoring this conference? Please contact <sponsorship@bioconductor.org>
 
-**Your sponsorship will help increase diversity and representation at Bioconductor 2022** by:
+**Your sponsorship will help increase diversity and representation at EuroBioC2023** by:
 
 - Keeping registration costs affordable for academic participants and trainees.  
 - Provide high quality hybrid/virtual programming and post-production and sharing of videos and conference materials
