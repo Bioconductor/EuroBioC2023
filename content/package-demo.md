@@ -1,5 +1,5 @@
 +++
-title = "Pacakge demos"
+title = "Package demos"
 description = "Package demos"
 +++
 
