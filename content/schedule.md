@@ -3,7 +3,25 @@ title = "Schedule"
 description = "Schedule"
 +++
 
-### Coming soon
+The indications below are approximate and will be more precise and detailed closer to the conference.
+
+## Wednesday, September 20, 2023
+
+~8:30: Start day 1
+
+~17:30: End day 1
+
+Conference dinner
+
+## Thursday, September 21, 2023
+
+~8:30: Start day 2
+
+~17:30: End day 2
+
+## Friday, September 22, 2023
+
+Developer day - more flexible program with Birds-of-a-Feather and discussion sessions related to a variety of topics.
 
 <!--
 + [All short talks](../tags/short-talk/)
