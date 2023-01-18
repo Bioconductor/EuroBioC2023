@@ -29,8 +29,10 @@ Presenters are encouraged to submit their slides to the [Bioconductor EuroBioC20
 ### Software demo ("short workshop")
 30-45 min demonstration of a software package or workflow.
 
+<!--
 ### Long workshop
 1.5 - 2 hour interactive workshop, where participants will be expected to have the time and opportunity to follow along and perform analysis themselves.
+-->
 
 ### Poster
 Classical poster printed on paper to be stuck to a wall, approximate size DIN A0.
