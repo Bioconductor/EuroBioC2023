@@ -3,7 +3,24 @@ title = "Registration"
 description = "Registration"
 +++
 
-### Coming soon
+### General registration for EuroBioC2023 is set to open on June 1, 2023. Speakers of accepted abstracts will be prioritized.
+
+#### Registration fees
+
+TBD
+
+#### Virtual attendance
+
+TBD
+
+#### Scholarships
+
+TBD
+
+## Cancellation Policy
+
+Bioconductor is a non-profit organization, and conferences are designed only to break even every year. As a result we are generally unable to offer individual refunds.
+
 
 <!--
 ### Registration is now open for the BioC22 conference. You have two ticket options:
