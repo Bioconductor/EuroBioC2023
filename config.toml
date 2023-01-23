@@ -130,7 +130,7 @@ paginate = 50
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:workshop@bioconductor.org"
+    url = "mailto:eurobioc@bioconductor.org"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [[menu.topbar]]

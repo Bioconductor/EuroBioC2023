@@ -154,7 +154,7 @@ Bioconductor is a non-profit organization that supports one of the most widely u
 The conference is unique in that in addition to talks and poster session, the meeting features workshops which provide hands-on learning in Bioconductor.  All conference materials (videos, slides, talks, posters, workshops) are published online such that the conference provides a rich resource for learning Bioconductor. 
 
 > Interested in sponsoring EuroBioC2023? <br> 
-Please contact <eurobioc@embl.org>
+Please contact <eurobioc@bioconductor.org>
 
 **Your sponsorship will help increase diversity and representation at the European Bioconductor Conference 2023** by:
 

@@ -79,7 +79,7 @@ For Code of Conduct in other languages, see [bioc_coc_multilingual](https://kevi
 
 ### Code of Conduct violation reports 
 
-* Email: [code-of-conduct@bioconductor.org](mailto:workshop@bioconductor.org?subject=BioC%20code-of-conduct)
+* Email: [code-of-conduct@bioconductor.org](mailto:code-of-conduct@bioconductor.org?subject=EuroBioC%23code-of-conduct)
 * Anonymous Code of Conduct violation reports: [https://tinyurl.com/bioccomplaint](https://tinyurl.com/bioccomplaint)
 * Law enforcement emergency number: 911 (US) / 112 (EU)
 
