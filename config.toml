@@ -142,7 +142,7 @@ paginate = 50
 [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    defaultKeywords = ["Bioconductor", "EuroBioC2023", "conference"]
     mainSections = ["blog"]
     # defaultDescription = "Site template made by devcows using hugo"
 
