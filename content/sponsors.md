@@ -166,7 +166,7 @@ Please contact <eurobioc@bioconductor.org>
 
 Three levels of sponsorship are available. Sponsors of all levels may present a poster highlighting the scientific interests of their organization in the poster sessions.
 
-**Platinum: 5,000 Euros**
+**Platinum: 8,000 Euros**
 
 - Poster session will be named after these donors.
 - Highest recognition, using your logo, on the website, and on printed promotional and scheduling material.
@@ -174,14 +174,14 @@ Three levels of sponsorship are available. Sponsors of all levels may present a 
 - A thank-you tweet including your preferred Twitter handle.
 <!-- A table during the poster session -->
 
-**Gold: 3,000 Euros**
+**Gold: 4,000 Euros**
 
 - Top recognition, using your logo, in the online and print conference promotional and scheduling material.
 - Up to 2 free registrations.
 - A thank-you tweet including your preferred Twitter handle.
 <!-- A table during the poster session -->
 
-**Silver: 1,000 Euros**
+**Silver: 1,500 Euros**
 
 - Sponsor names will be listed in the online and print promotional and scheduling material.
 - Academic discount on 2 registrations.
