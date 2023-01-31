@@ -43,7 +43,7 @@ Poster presenters are encouraged to submit their poster to the [Bioconductor Eur
 Dedicated session consisting of 2-3 talks (10-15 min each) and a 10-15 min discussion by the session chair(s). To propose a contributed session, all the intended talks must be submitted separately by the respective presenter (as regular short talk submissions) to OpenReview, and in addition a proposal for the contributed session must be submitted by the session chair(s), providing a brief description and listing the talks that would take part in the session. 
 
 ### Birds-of-a-feather session
-Free-format, organizer-lead interactive discussion session on a topic relevant to the Bioconductor community. 
+Free-format, organizer-lead interactive discussion session on a topic relevant to the Bioconductor community. The submission of Birds-of-a-feather sessions will take place on GitHub, and the call will be open beyond the submission deadline of the other submission types. More information will be provided here shortly. 
 
 <!--
 ### Digital poster
