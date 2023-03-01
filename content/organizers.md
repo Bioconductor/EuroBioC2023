@@ -13,12 +13,12 @@ description = "Organizers"
 
 |       |   |     |   |      |   |      |   |      |
 |:-----:|---|:---:|---|:----:|---|:----:|---|:----:|
-| ![](../img/organizers/CharlotteSoneson.jpg) | &nbsp; | ![](../img/organizers/DavideRisso.JPG)       | &nbsp; | ![](../img/organizers/FedericoMarini.png)  | &nbsp; | ![](../img/organizers/JohannesRainer.jpg) | &nbsp; | ![](../img/organizers/LaurentGatto.png)   |  
-| Charlotte Soneson                                 | &nbsp; | Davide Risso                                 | &nbsp; | Federico Marini                                 | &nbsp; | Johannes Rainer                          | &nbsp; | Laurent Gatto                             | 
-| ![](../img/organizers/LeoLahti.jpg)  | &nbsp; | ![](../img/organizers/LievenClement.jpeg) | &nbsp; | ![](../img/organizers/mark.jpg) | &nbsp; | ![](../img/organizers/MStadler_FMI0142.jpg)   | &nbsp; | ![](../img/organizers/RobertCastelo.jpeg)      | 
-| Leo Lahti                             | &nbsp; | Lieven Clement                           | &nbsp; | Mark Robinson                          | &nbsp; | Michael Stadler                             | &nbsp; | Robert Castelo                                | 
-| ![](../img/organizers/ivanekr.jpg)   | &nbsp; | ![](../img/organizers/SimoneBell.jpg)              | &nbsp; | ![](../img/organizers/ThomasNaake.jpg) | &nbsp; | ![](../img/organizers/Wolfgang_Huber.jpg)       | 
-| Robert Ivanek                              | &nbsp; | Simone Bell                                | &nbsp; | Thomas Naake                             | &nbsp; | Wolfgang Huber                                | 
+| ![](../img/organizers/CharlotteSoneson.jpg) | &nbsp; | ![](../img/organizers/DavideRisso.JPG) | &nbsp; | ![](../img/organizers/FedericoMarini.png) | &nbsp; | ![](../img/organizers/JohannesRainer.jpg) | &nbsp; | ![](../img/organizers/LaurentGatto.png)   |  
+| Charlotte Soneson | &nbsp; | Davide Risso | &nbsp; | Federico Marini | &nbsp; | Johannes Rainer | &nbsp; | Laurent Gatto | 
+| ![](../img/organizers/LeoLahti.jpg)  | &nbsp; | ![](../img/organizers/LievenClement.jpeg) | &nbsp; | ![](../img/organizers/MariaDoyle.jpeg) | &nbsp; | ![](../img/organizers/mark.jpg) | &nbsp; | ![](../img/organizers/MStadler_FMI0142.jpg) | 
+| Leo Lahti | &nbsp; | Lieven Clement | &nbsp; | Maria Doyle | &nbsp; | Mark Robinson | &nbsp; | Michael Stadler |
+| ![](../img/organizers/RobertCastelo.jpeg) | &nbsp; | ![](../img/organizers/ivanekr.jpg)   | &nbsp; | ![](../img/organizers/SimoneBell.jpg) | &nbsp; | ![](../img/organizers/Wolfgang_Huber.jpg) | 
+| Robert Castelo | &nbsp; | Robert Ivanek | &nbsp; | Simone Bell | &nbsp; | Wolfgang Huber | 
 
 
 <!--
