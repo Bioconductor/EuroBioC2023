@@ -13,7 +13,7 @@ description = "Organizers"
 
 |       |   |     |   |      |   |      |   |      |
 |:-----:|---|:---:|---|:----:|---|:----:|---|:----:|
-| ![](../img/organizers/Aedin.jpg) | &nbsp; | ![](../img/organizers/CharlotteSoneson.jpg) | &nbsp; | ![](../img/organizers/DavideRisso.JPG) | &nbsp; | ![](../img/organizers/FedericoMarini.png) | &nbsp; | ![](../img/organizers/JohannesRainer.jpg) | 
+| ![](../img/organizers/AedinCulhane.png) | &nbsp; | ![](../img/organizers/CharlotteSoneson.jpg) | &nbsp; | ![](../img/organizers/DavideRisso.JPG) | &nbsp; | ![](../img/organizers/FedericoMarini.png) | &nbsp; | ![](../img/organizers/JohannesRainer.jpg) | 
 | Aedin Culhane | &nbsp; | Charlotte Soneson | &nbsp; | Davide Risso | &nbsp; | Federico Marini | &nbsp; | Johannes Rainer |
 | ![](../img/organizers/LaurentGatto.png) |  &nbsp; | ![](../img/organizers/LeoLahti.jpg)  | &nbsp; | ![](../img/organizers/LievenClement.jpeg) | &nbsp; | ![](../img/organizers/MariaDoyle.jpeg) | &nbsp; | ![](../img/organizers/mark.jpg) | 
 | Laurent Gatto | &nbsp; | Leo Lahti | &nbsp; | Lieven Clement | &nbsp; | Maria Doyle | &nbsp; | Mark Robinson |
