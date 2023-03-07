@@ -3,6 +3,14 @@ title = "Submissions"
 description = "Submissions"
 +++
 
+## Call for abstracts
+
+[Submit your abstract here](https://openreview.net/group?id=bioconductor.org/EuroBioC/2023/Conference)
+
+* February 1: Call for abstracts opens
+* April 14: Call for abstracts closes
+* May 8: Notification of abstract decision
+
 <!--
 **Important Dates**
 * January 22, 2022: Call for abstracts opens
