@@ -19,8 +19,8 @@ description = "Organizers"
 | Johannes Rainer | &nbsp; | Laurent Gatto | &nbsp; | Leo Lahti | &nbsp; | Lieven Clement | &nbsp; | Maria Doyle |
 | ![](../img/organizers/mark.jpg) | &nbsp; | ![](../img/organizers/MStadler_FMI0142.jpg) | &nbsp; | ![](../img/organizers/RobertCastelo.jpeg) | &nbsp; | ![](../img/organizers/ivanekr.jpg)   | &nbsp; | ![](../img/organizers/SimoneBell.jpg) |
 Mark Robinson | &nbsp; | Michael Stadler | &nbsp; | Robert Castelo | &nbsp; | Robert Ivanek | &nbsp; | Simone Bell |
-| ![](../img/organizers/Wolfgang_Huber.jpg) | ![](../img/organizers/RuthSeurinck.png ) | ![](../img/organizers/OlivierThas.png) | ![](../img/organizers/TimDemeyer.png) |
-| Wolfgang Huber | Ruth Seurinck | Olivier Thas | Tim Demeyer |
+| ![](../img/organizers/Wolfgang_Huber.jpg) | &nbsp; | ![](../img/organizers/RuthSeurinck.png ) | &nbsp; | ![](../img/organizers/OlivierThas.png) | &nbsp; | ![](../img/organizers/TimDemeyer.png) |
+| Wolfgang Huber | &nbsp; |  Ruth Seurinck | &nbsp; | Olivier Thas | &nbsp; | Tim Demeyer |
 
 <!--
 ## Co-chairs
