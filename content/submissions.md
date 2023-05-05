@@ -11,7 +11,7 @@ description = "Submissions"
 
 * February 1: Call for abstracts opens
 * April 24 (5 pm CEST): Call for abstracts closes
-* May 8: Notification of abstract decision
+* May 9: Notification of abstract decision
 
 <!--
 **Important Dates**

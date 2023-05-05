@@ -21,7 +21,7 @@ Conference dinner
 
 ## Friday, September 22, 2023
 
-Developer day - more flexible program with Birds-of-a-Feather and discussion sessions related to a variety of topics.
+Developer day - more flexible program including Birds-of-a-Feather and discussion sessions related to a variety of topics.
 
 <!--
 + [All short talks](../tags/short-talk/)
