@@ -5,13 +5,13 @@ description = "Registration"
 
 ### General registration for EuroBioC2023 is set to open on June 1, 2023. Speakers of accepted abstracts will be prioritized.
 
-#### Tentative registration fees
+#### Registration fees
 
 Non-academic/Industry EUR 350,00 
 
-Academic/Senior EUR 200,00
+Academic/Senior EUR 250,00
 
-Academic/Junior EUR 70,00
+Academic/Junior EUR 100,00
 
 
 #### Virtual attendance
