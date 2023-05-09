@@ -7,7 +7,7 @@ description = "Registration"
 
 #### Registration fees
 
-Non-academic/Industry EUR 350,00 
+Non-academic/Industry EUR 500,00 
 
 Academic/Senior EUR 250,00
 
