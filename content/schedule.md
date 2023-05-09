@@ -11,7 +11,7 @@ The indications below are approximate and will be more precise and detailed clos
 
 ~17:30: End day 1
 
-Conference dinner
+Conference dinner (to be confirmed)
 
 ## Thursday, September 21, 2023
 
