@@ -7,11 +7,11 @@ description = "Registration"
 
 #### Registration fees
 
-Non-academic/Industry EUR 500,00 
+{{< feeTable >}}
 
-Academic/Senior EUR 250,00
+### Register
 
-Academic/Junior EUR 100,00
+{{< registrationForm >}}
 
 
 #### Virtual attendance
