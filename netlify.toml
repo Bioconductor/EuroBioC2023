@@ -3,3 +3,28 @@
 
 [context.deploy-preview]
   command = "hugo --buildFuture"
+
+## These entries are designed to stop webcrawlers indexing pages we don't want
+## readers to find without following the correct links e.g. when the registration
+## page is live but we only want people with a direct link to find it.
+
+[[headers]]
+  for = "/registration*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/payment"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/success"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/cancellation"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+

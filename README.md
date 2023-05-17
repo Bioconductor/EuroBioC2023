@@ -79,6 +79,12 @@ YAML files for co-chairs and committee. Processed by [content/organizers.md](con
 
 YAML files for each speaker. Processed by [layouts/partials/speakers.html](layouts/partials/speakers.html).
 
+## Registration and payment
+
+The registration form can be found in [layouts/shortcodes/registrationForm.html](layouts/shortcodes/registrationForm.html) and is embedded in [content/registration.md](content/registration.md).  We use the [Netlify Forms](https://www.netlify.com/products/forms/) functionality to capture each input.  We then use [Zapier](www.zapier.com) to insert each form entry into a new row of a Google Sheet.  An example Zapier workflow for EuroBioc2023 can be found at https://zapier.com/shared/4359ba00c688fff90371d071fc364d2619b1d53c
+
+The code behind the PayPal payment form is found in [content/payment.md](content/payment.md).  This is produced by PayPal for each event and can be copied directly into the file, replacing whatever is already there.  **The form code includes links to "success" and "cancellation" pages that should be updated for the specific event.**
+
 # Disclaimer
 
 This template was created using the modified.

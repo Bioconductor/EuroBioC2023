@@ -1,0 +1,17 @@
+form > div.row > p {
+    padding-left: 15px;
+    font-size: 1em;
+}
+
+table.fees {
+    margin-bottom: 20px;
+}
+
+#fees {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+th, td {
+  padding: 5px;
+}
