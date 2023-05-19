@@ -13,6 +13,7 @@ description = "Registration"
 
 {{< registrationForm >}}
 
+For inquiries related to conference registration, organisation, or certificates of attendance, please contact us at eurobioc (at) embl.org. 
 
 ## Cancellation Policy
 
