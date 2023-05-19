@@ -15,3 +15,8 @@ table.fees {
 th, td {
   padding: 5px;
 }
+
+p.contact-email {
+  font-size: 2rem;
+  font-family: Monospace;
+}

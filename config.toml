@@ -174,8 +174,8 @@ paginate = 50
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
-    contact_form_ajax = false
+    #email = "your@email.com"
+    #contact_form_ajax = false
 
     about_us = "<p>Bioconductor conference highlights current developments within and beyond the Bioconductor project.</p>"
     copyright = "Copyright (c) 2020 - 2023, Bioconductor."
