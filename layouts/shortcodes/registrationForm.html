@@ -1,5 +1,6 @@
 <div class="container">
-<form name="register" 
+<form id="register"
+      name="register" 
       method="post" 
       target="_top" 
       action="/payment/" 
@@ -55,7 +56,7 @@
     </div>
   </div>
   <div class="row">
-  <p>Postal Addess (for the invoice)</p>
+  <p>Postal Addess (Required for the invoice. Please see above for more details.)</p>
     <div class="col-sm-6 col-md-4">
       <div class="form-group">
         <label for="street">Street and number</label>
@@ -84,7 +85,7 @@
   <div class="row">
     <div class="col-lg-4">
       <div class="form-group">
-        <label for="vat">VAT Number<br/>(If registering with an institutional address, you must provide this)</label>
+        <label for="vat">VAT Number<br/>(If registering with an institutional address from EU countries, you must provide this.)</label>
         <input type="text" class="form-control" name="vat" id="vat">
       </div>
     </div>
@@ -96,7 +97,7 @@
         <input type="text" class="form-control" name="diet" id="diet">
       </div>
     </div>
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-3 col-md-6">
       <div class="form-group">
         <label for="registration-type">Registration Type<br><br></label>
         <select class="form-control" name="registration-type" id="registration-type">
@@ -107,7 +108,7 @@
     	  </select>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-5 col-md-6">
       <div class="form-group">
         <label for="pay-bank-transfer">Pay by bank transfer rather than Credit card/PayPal<br/>(we will send you an invoice with the bank details)</label>
         <input type="checkbox" class="form-control" id="pay-bank-transfer" name="pay-bank-transfer">
