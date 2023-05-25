@@ -3,6 +3,11 @@ form > div.row > p {
     font-size: 1em;
 }
 
+form#register {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 table.fees {
     margin-bottom: 20px;
 }
