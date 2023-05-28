@@ -1,4 +1,7 @@
 public/
 .DS_Store
-
 .Rproj.user
+.Rhistory
+.hugo_build.lock
+EuroBioC2023.Rproj
+Notes.txt
