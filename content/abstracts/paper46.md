@@ -1,5 +1,5 @@
 ---
-title: "Towards resolving ambiguity in promoter to gene assignment for omics data intergration"
+title: "Towards resolving ambiguity in promoter to gene assignment for omics data integration"
 tags: ["Poster"]
 type: "blog"
 draft: false
