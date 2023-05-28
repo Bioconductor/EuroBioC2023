@@ -18,7 +18,7 @@ Affiliation(s): {{ .affiliation }} <br>
 {{ if eq .twitter "" }}
 <br>
 {{ else }}
-Twitter: <a href="https://twitter.com/{{ .twitter }}" target="_blank"> @{{ .twitter }} </a>
+Social media: <a href="{{ .twitter }}" target="_blank"> {{ .twitter }} </a>
 <br>
 {{ end }} 
 

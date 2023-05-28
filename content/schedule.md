@@ -3,6 +3,15 @@ title = "Schedule"
 description = "Schedule"
 +++
 
++ [All short talk abstracts](../tags/short-talk/)
++ [All package demo abstracts](../tags/package-demo/)
++ [All poster abstracts](../tags/poster)
+
+{{< schedule date="Wednesday, September 20, 2023" day="day1">}} 
+{{< schedule date="Thursday, September 21, 2023" day="day2">}} 
+{{< schedule date="Friday, September 22, 2023" day="day3">}}
+
+<!--
 The indications below are approximate and will be more precise and detailed closer to the conference.
 
 ## Wednesday, September 20, 2023
@@ -22,6 +31,7 @@ Conference dinner (to be confirmed)
 ## Friday, September 22, 2023
 
 Developer day - more flexible program including Birds-of-a-Feather and discussion sessions related to a variety of topics.
+-->
 
 <!--
 + [All short talks](../tags/short-talk/)

@@ -8,7 +8,7 @@
 <table id='schedule-table' class="table table-bordered table-hover">
     <thead>
         <tr>
-            <th>Time (PDT)</th>
+            <th>Time (CEST)</th>
             <th>Session</th>
             <th>Presenting author(s)</th>
             <th>Title/Event</th>
@@ -20,8 +20,8 @@
         {{ range sort $data "time" "asc" }}
         {{ if eq .day $day }}
 
-        {{ if not (eq .session_type "Short talk") }}
-        
+        {{ if not (eq .session_type "Short talk" "Poster") }}
+
         {{ if eq .session_type "Keynote" }}
 
         <tr class="danger">
@@ -31,7 +31,7 @@
             {{ if eq .twitter "" }}
             <td width="18%">{{ .presenting_author }}</td>
             {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
             {{ end }}
 
             {{ if eq .paper "" }}
@@ -60,26 +60,39 @@
                 {{ if eq .twitter "" }}
                 {{ .presenting_author }}<br>
                 {{ else }}
-                <a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a><br>
+                <a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a><br>
                 {{ end }}
 
                 {{ if eq .twitter2 "" }}
                 {{ .presenting_author2 }}<br>
                 {{ else }}
-                <a href="https://twitter.com/{{ .twitter2 }}" target="_blank">{{ .presenting_author2 }}</a><br>
+                <a href="{{ .twitter2 }}" target="_blank">{{ .presenting_author2 }}</a><br>
                 {{ end }}
 
                 {{ if eq .twitter3 "" }}
                 {{ .presenting_author3 }}<br>
                 {{ else }}
-                <a href="https://twitter.com/{{ .twitter3 }}" target="_blank">{{ .presenting_author3 }}</a><br>
+                <a href="{{ .twitter3 }}" target="_blank">{{ .presenting_author3 }}</a><br>
                 {{ end }}
 
                 {{ if eq .twitter4 "" }}
                 {{ .presenting_author4 }}<br>
                 {{ else }}
-                <a href="https://twitter.com/{{ .twitter4 }}" target="_blank">{{ .presenting_author4 }}</a><br>
+                <a href="{{ .twitter4 }}" target="_blank">{{ .presenting_author4 }}</a><br>
                 {{ end }}
+                
+                {{ if eq .twitter5 "" }}
+                {{ .presenting_author5 }}<br>
+                {{ else }}
+                <a href="{{ .twitter5 }}" target="_blank">{{ .presenting_author5 }}</a><br>
+                {{ end }}
+
+                {{ if eq .twitter6 "" }}
+                {{ .presenting_author6 }}<br>
+                {{ else }}
+                <a href="{{ .twitter6 }}" target="_blank">{{ .presenting_author6 }}</a><br>
+                {{ end }}
+                
             </td>
 
             {{ if eq .paper "" }}
@@ -112,6 +125,19 @@
             {{ else }}
             <a href="{{ .youtube4 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
             {{ end }}
+
+            {{ if eq .youtube5 "" }}
+            {{ .youtube5 }}<br>
+            {{ else }}
+            <a href="{{ .youtube5 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
+            {{ if eq .youtube6 "" }}
+            {{ .youtube6 }}<br>
+            {{ else }}
+            <a href="{{ .youtube6 }}" target="_blank"><i class="fab fa-youtube" ></i></a><br>
+            {{ end }}
+
             </td>
 
         </tr>
@@ -125,7 +151,7 @@
             {{ if eq .twitter "" }}
             <td width="18%">{{ .presenting_author }}</td>
             {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
             {{ end }}
 
             {{ if eq .paper "" }}
@@ -151,7 +177,7 @@
             {{ if eq .twitter "" }}
             <td width="18%">{{ .presenting_author }}</td>
             {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
             {{ end }}
 
             {{ if eq .paper "" }}
@@ -177,7 +203,7 @@
             {{ if eq .twitter "" }}
             <td width="18%">{{ .presenting_author }}</td>
             {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
             {{ end }}
 
             {{ if eq .paper "" }}
@@ -203,7 +229,7 @@
             {{ if eq .twitter "" }}
             <td width="18%">{{ .presenting_author }}</td>
             {{ else }}
-            <td width="18%"><a href="https://twitter.com/{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
             {{ end }}
 
             {{ if eq .paper "" }}
@@ -233,4 +259,6 @@
 
 {{- end -}}
 
+<!--
 Workshop/demo levels: * - beginner, recommended for starting with Bioconductor; ** - intermediate; *** - advanced.
+-->
