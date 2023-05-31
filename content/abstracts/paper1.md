@@ -1,6 +1,6 @@
 ---
-title: "Cola: A General Framework For Consensus Partitioning**"
-tags: ["Package demo"]
+title: "Improve Consensus Partitioning via a Hierarchical Procedure"
+tags: ["Short talk"]
 type: "blog"
 draft: false
 ---

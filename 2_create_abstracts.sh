@@ -13,9 +13,9 @@ do
 
     echo Creating abstract page for $i
 
-    title=$(grep -e "title" $i | sed -e "s/title: \"//" | sed "s/\"$//")
-    session_type=$(grep -e "session_type" $i | sed "s/session_type: \"//" | sed "s/\"$//")
-    paper=$(grep -e "paper" $i | sed "s/paper: \"//" | sed "s/\"$//")
+    title=$(grep -e "^title:" $i | sed -e "s/title: \"//" | sed "s/\"$//")
+    session_type=$(grep -e "^session_type:" $i | sed "s/session_type: \"//" | sed "s/\"$//")
+    paper=$(grep -e "^paper:" $i | sed "s/paper: \"//" | sed "s/\"$//")
     
     echo -e "---
 title: \"$title\"
