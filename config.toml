@@ -60,12 +60,12 @@ paginate = 50
     url  = "/submissions/"
     weight = 15
 
-# [[menu.main]]
-#    identifier="registration"
+[[menu.main]]
+   identifier="registration"
 #    parent = "about"
-#    name = "Registration"
-#    url  = "/registration/"
-#    weight = 55
+   name = "Registration"
+   url  = "/registration/"
+   weight = 55
 
 #[[menu.main]]
 #    identifier="workshops"

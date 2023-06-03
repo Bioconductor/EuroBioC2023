@@ -3,7 +3,7 @@ title = "Registration"
 description = "Registration"
 +++
 
-### General registration for EuroBioC2023 is set to open on June 1, 2023. Speakers of accepted abstracts will be prioritized.
+### General registration for EuroBioC2023 is open.
 
 #### Registration fees
 
