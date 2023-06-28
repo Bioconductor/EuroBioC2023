@@ -20,7 +20,7 @@
         {{ range sort $data "time" "asc" }}
         {{ if eq .day $day }}
 
-        {{ if not (eq .session_type "Short talk" "Poster") }}
+        {{ if not (eq .session_type "Short talks track" "Poster") }}
 
         {{ if eq .session_type "Keynote" }}
 
@@ -168,7 +168,7 @@
 
         </tr>
 
-        {{ else if eq .session_type "Workshop" }}
+        {{ else if eq .session_type "Short talk" }}
 
         <tr class="warning">
             <td width="5%">{{ .time }}</td>
