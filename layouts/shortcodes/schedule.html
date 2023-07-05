@@ -220,6 +220,58 @@
 
         </tr>
 
+        {{ else if eq .session_type "Birds of a Feather" }}
+
+        <tr class="info">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
+        {{ else if eq .session_type "Flash talks" }}
+
+        <tr class="warning">
+            <td width="5%">{{ .time }}</td>
+            <td width="12%">{{ .session_type }}</td>
+
+            {{ if eq .twitter "" }}
+            <td width="18%">{{ .presenting_author }}</td>
+            {{ else }}
+            <td width="18%"><a href="{{ .twitter }}" target="_blank">{{ .presenting_author }}</a></td>
+            {{ end }}
+
+            {{ if eq .paper "" }}
+            <td width="60%">{{ .title }}</td>
+            {{ else }}
+            <td width="60%"><a href="../abstracts/{{ .paper }}" target="_blank" title={{ .abstract }} >{{ .title }}</a> </td>
+            {{ end }}
+
+            {{ if eq .youtube "" }}
+            <td width="5%">{{ .youtube }}</td>
+            {{ else }}
+            <td width="5%"><a href="{{ .youtube }}" target="_blank"><i class="fab fa-youtube" ></i></a></td>
+            {{ end }}
+
+        </tr>
+
         {{ else }}
 
         <tr>
