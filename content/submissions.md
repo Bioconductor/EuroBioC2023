@@ -12,6 +12,7 @@ description = "Submissions"
 * February 1: Call for abstracts opens
 * April 24 (5 pm CEST): Call for abstracts closes
 * May 9: Notification of abstract decision
+* September 20: Submission of Birds-of-a-Feather sessions closes
 
 <!--
 **Important Dates**
@@ -31,13 +32,17 @@ description = "Submissions"
 
 ## Submission types
 
+### Birds-of-a-feather session - Submission open!
+Birds-of-a-feather sessions are free-format, organizer-lead interactive discussions on a topic relevant to the Bioconductor community.
+Birds-of-a-feather sessions can be proposed until September 20, by filing an issue in https://github.com/bioconductor/eurobioc2023. In the issue, please provide information about the plan and intended outcomes of the session, as well as the name and contact information of the organizer(s).
+
 ### Short talk
-10-15 min talk, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.
+12 min talk, focused on a package, an application note, or a current research presentation. Presentations seeking collaboration or input from the community are encouraged.
 
 Presenters are encouraged to submit their slides to the [Bioconductor EuroBioC2023 conference gateway on F1000Research](https://f1000research.com/gateways/bioconductor/for-authors/publish-your-research). The submission is free, and published slides on F1000Research will receive a digital object identifier (DOI). For more details, please refer to the [Poster & Slides Guidelines](https://f1000research.com/gateways/bioconductor/for-authors/posters-and-slides-guidelines). Inclusion of the Bioconductor logo and/or #EuroBioC2023 tag is encouraged. 
 
 ### Software demo ("short workshop")
-30-45 min demonstration of a software package or workflow.
+40 min demonstration of a software package or workflow.
 
 <!--
 ### Long workshop
@@ -51,9 +56,6 @@ Poster presenters are encouraged to submit their poster to the [Bioconductor Eur
 
 ### Contributed session
 Dedicated session consisting of 2-3 talks (10-15 min each) and a 10-15 min discussion by the session chair(s). To propose a contributed session, all the intended talks must be submitted separately by the respective presenter (as regular short talk submissions) to OpenReview, and in addition a proposal for the contributed session must be submitted by the session chair(s), providing a brief description and listing the talks that would take part in the session. 
-
-### Birds-of-a-feather session
-Free-format, organizer-lead interactive discussion session on a topic relevant to the Bioconductor community. The submission of Birds-of-a-feather sessions will take place on GitHub, and the call will be open beyond the submission deadline of the other submission types. More information will be provided here shortly. 
 
 <!--
 ### Digital poster
