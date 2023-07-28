@@ -8,7 +8,7 @@ title = "Pre-conference Workshops Payment"
 
 **Registration fee:** 100 Euros 
 
-Thank you for your registration to a EuroBioc2023 workshop.  Your place at the workshop is only confirmed once the payment has been made.  You can do this either via the PayPal "Add to cart" button below (choose this to pay with credit card) or via bank transfer.
+Thank you for your registration to a EuroBioc2023 workshop.  Your place at the workshop is only confirmed once the payment has been made.  You can do this either via the "Pay with PayPal" button below (choose this to pay with credit card) or via bank transfer.
 
 ## Payment Options
 
