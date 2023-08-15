@@ -25,3 +25,33 @@ p.contact-email {
   font-size: 2rem;
   font-family: Monospace;
 }
+
+form#paypal {
+  width: 350px;
+}
+
+form#paypal table {
+  width: 100%;
+}
+
+form#paypal select {
+  width: 100%;
+  height: 2em;
+}
+
+form#paypal input {
+  width: 100%;
+  height: 2em;
+}
+
+.btn-paypal {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-left: 0;
+  padding-right: 0;
+  width: 340px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 3em;
+}

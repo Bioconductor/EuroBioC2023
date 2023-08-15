@@ -28,3 +28,12 @@
   [headers.values]
     X-Robots-Tag = "noindex"
 
+[[headers]]
+  for = "/workshop-payment"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/workshop-payment-success"
+  [headers.values]
+    X-Robots-Tag = "noindex"
