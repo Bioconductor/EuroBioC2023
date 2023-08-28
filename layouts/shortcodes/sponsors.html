@@ -107,3 +107,24 @@
     {{end}}
   </div>
 </div>
+
+<div class="heading text-center">
+    <h2> Academic supporter  </h2>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    {{ $level := "academic_supporter" }}
+    {{ range $sponsors := $.Site.Data.clients }}
+    {{ if (eq $sponsors.level $level) }}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+      <div class="panel panel-default">
+        <div class="panel-body"> 
+          <img src="{{.image}}" class="img-responsive center-block"> 
+          <a href = "{{.url}}" target="_blank"> {{.name}} </a>
+        </div>
+      </div>
+    </div>
+    {{end}}
+    {{end}}
+  </div>
+</div>
