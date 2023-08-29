@@ -112,7 +112,7 @@ paginate = 50
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/Bioconductor/"
+    url = "https://github.com/Bioconductor/EuroBioC2023"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 # [[menu.topbar]]
