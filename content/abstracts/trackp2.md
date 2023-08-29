@@ -1,5 +1,5 @@
 ---
-title: "Poster session 2"
+title: "GSK Poster session 2"
 tags: ["Posters"]
 type: "blog"
 draft: false
