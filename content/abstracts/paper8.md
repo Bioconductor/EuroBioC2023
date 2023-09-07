@@ -1,5 +1,5 @@
 ---
-title: "A reliable and reproducible resource for CT genes"
+title: "CTexploreR: taking on the challenge of Cancer-Testis genes"
 tags: ["Poster"]
 type: "blog"
 draft: false
