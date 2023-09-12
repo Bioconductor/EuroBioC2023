@@ -14,7 +14,7 @@ description = "Organizers"
 | ![](../img/organizers/mark.jpg) | &nbsp; | ![](../img/organizers/MStadler_FMI0142.jpg) | &nbsp; | ![](../img/organizers/RobertCastelo.jpeg) | &nbsp; | ![](../img/organizers/ivanekr.jpg)   | &nbsp; | ![](../img/organizers/SimoneBell.jpg) |
 Mark Robinson | &nbsp; | Michael Stadler | &nbsp; | Robert Castelo | &nbsp; | Robert Ivanek | &nbsp; | Simone Bell |
 | ![](../img/organizers/Wolfgang_Huber.jpg) | &nbsp; | ![](../img/organizers/RuthSeurinck.png ) | &nbsp; | ![](../img/organizers/OlivierThas.png) | &nbsp; | ![](../img/organizers/TimDemeyer.png) |
-| Wolfgang Huber | &nbsp; |  Ruth Seurinck | &nbsp; | Olivier Thas | &nbsp; | Tim Demeyer |
+| Wolfgang Huber | &nbsp; |  Ruth Seurinck | &nbsp; | Olivier Thas | &nbsp; | Tim De Meyer |
 
 For inquiries related to conference registration, organisation, or certificates of attendance, please contact us at eurobioc (at) embl.org. 
 
