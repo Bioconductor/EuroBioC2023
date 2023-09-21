@@ -1,15 +1,24 @@
 day: "day3"
-title: "Birds of a Feather - topic TBD"
+title: "Comparison of deployment methods for Shiny Apps"
 paper: "paperu2"
 session_type: "Birds of a Feather"
-authors: "TBD"
-affiliation: ""
-abstract: ""
+authors: "Ivo Kwee, Mauro Masiero"
+affiliation: "BigOmics Analytics"
+abstract: "There are quite a few proposed deployment methods for Shiny apps such as:
+
+R package (CRAN/BioC,GitHub)
+Running a Shiny-server
+Publishing on Shinyapp.io
+Posit Connect
+ShinyProxy
+Docker swarm / Kubernetes
+Serverless (AWS Fargate/Lambda, Google Cloud Run, etc.)
+The proposed plan is to compare and exchange experiences between these methods and see perhaps what other methods the people in the community are using."
 time: "13:00"
 talks: ""
 github: ""
-presenting_author: "TBD"
-presenting_author2: ""
+presenting_author: "Ivo Kwee"
+presenting_author2: "Mauro Masiero"
 presenting_author3: ""
 presenting_author4: ""
 presenting_author5: ""

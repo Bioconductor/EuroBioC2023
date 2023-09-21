@@ -1,5 +1,5 @@
 ---
-title: "Birds of a Feather - topic TBD"
+title: "Shiny app deployment using ShinyProxy"
 tags: ["Birds of a Feather"]
 type: "blog"
 draft: false

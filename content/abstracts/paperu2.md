@@ -1,5 +1,5 @@
 ---
-title: "Birds of a Feather - topic TBD"
+title: "Comparison of deployment methods for Shiny Apps"
 tags: ["Birds of a Feather"]
 type: "blog"
 draft: false

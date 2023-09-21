@@ -1,16 +1,28 @@
 day: "day3"
-title: "Birds of a Feather - topic TBD"
+title: "Shiny app deployment using ShinyProxy"
 paper: "paperu4"
 session_type: "Birds of a Feather"
-authors: "TBD"
-affiliation: ""
-abstract: ""
+authors: "Laure Cougnaud, Anne-Katrin Hess, Biancamaria Florenzi"
+affiliation: "Open Analytics"
+abstract: "ShinyProxy (https://shinyproxy.io/) is a 100% open source tool to deploy Shiny (and other) apps or web-based IDEs (like RStudio). Many bioinformatics and computational biology departments across the world use it to share their work as web applications. The purpose of this BoF is to share experiences in using ShinyProxy. You can 'bring your own package' to learn and see how to deploy it whether it is to deploy it within your research group or to present your work to the world.
+
+By means of introduction we will walk the audience from A to Z through the deployment of an example BioC app (using interactiveDisplay). During the complete session, everyone is invited to participate in a discussion (Q&A) on all aspects of Shiny application deployments. Common challenges include:
+
+making your app deployment reproducible
+deploying apps with different R versions / BioConductor versions
+dealing with system dependencies
+offering persistence to your applications
+authentication and authorization
+interaction with databases
+scalable infrastructure
+automating testing and deployment of Shiny apps (CI/CD)
+"
 time: "09:45"
 talks: ""
 github: ""
-presenting_author: "TBD"
-presenting_author2: ""
-presenting_author3: ""
+presenting_author: "Laure Cougnaud"
+presenting_author2: "Anne-Katrin Hess"
+presenting_author3: "Biancamaria Florenzi"
 presenting_author4: ""
 presenting_author5: ""
 presenting_author6: ""
