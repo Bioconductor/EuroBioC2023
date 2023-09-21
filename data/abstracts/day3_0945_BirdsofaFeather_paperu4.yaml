@@ -2,7 +2,7 @@ day: "day3"
 title: "Shiny app deployment using ShinyProxy"
 paper: "paperu4"
 session_type: "Birds of a Feather"
-authors: "Laure Cougnaud, Anne-Katrin Hess, Biancamaria Florenzi"
+authors: "Tobia De Koninck"
 affiliation: "Open Analytics"
 abstract: "ShinyProxy (https://shinyproxy.io/) is a 100% open source tool to deploy Shiny (and other) apps or web-based IDEs (like RStudio). Many bioinformatics and computational biology departments across the world use it to share their work as web applications. The purpose of this BoF is to share experiences in using ShinyProxy. You can 'bring your own package' to learn and see how to deploy it whether it is to deploy it within your research group or to present your work to the world.
 
@@ -20,7 +20,7 @@ automating testing and deployment of Shiny apps (CI/CD)
 time: "09:45"
 talks: ""
 github: ""
-presenting_author: "Laure Cougnaud, Anne-Katrin Hess, Biancamaria Florenzi"
+presenting_author: "Tobia De Koninck"
 presenting_author2: ""
 presenting_author3: ""
 presenting_author4: ""
