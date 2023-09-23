@@ -8,14 +8,15 @@ abstract: "ShinyProxy (https://shinyproxy.io/) is a 100% open source tool to dep
 
 By means of introduction we will walk the audience from A to Z through the deployment of an example BioC app (using interactiveDisplay). During the complete session, everyone is invited to participate in a discussion (Q&A) on all aspects of Shiny application deployments. Common challenges include:
 
-making your app deployment reproducible
-deploying apps with different R versions / BioConductor versions
-dealing with system dependencies
-offering persistence to your applications
-authentication and authorization
-interaction with databases
-scalable infrastructure
-automating testing and deployment of Shiny apps (CI/CD)
+making your app deployment reproducible,
+deploying apps with different R versions / BioConductor versions,
+dealing with system dependencies,
+offering persistence to your applications,
+authentication and authorization,
+interaction with databases,
+scalable infrastructure,
+automating testing and deployment of Shiny apps (CI/CD). 
+Material: https://github.com/openanalytics/eurobioc2023-shinyproxy
 "
 time: "09:45"
 talks: ""
